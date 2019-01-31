@@ -11,7 +11,9 @@ public class Commisioner implements Salesman {
 
 	@Override
 	public double calculateSalary() {
-		return daysWorked * 200;
+		double earn = daysWorked * 200;
+		double tax = earn * .16;
+		return earn - tax;
 	}
 	
 

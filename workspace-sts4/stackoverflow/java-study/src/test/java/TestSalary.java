@@ -11,10 +11,10 @@ public class TestSalary {
 	@Test
 	public void test() {
 		Salesman commissioner = new Commisioner(1);
-		assertEquals(200.0, commissioner.calculateSalary(), 0.01);
+		assertEquals(168.0, commissioner.calculateSalary(), 0.01);
 		
 		Salesman feeRate = new FeeRate();
-		assertEquals(330.0, feeRate.calculateSalary(), 0.01);
+		assertEquals(5400.0, feeRate.calculateSalary(), 0.01);
 	}
 
 }
